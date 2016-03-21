@@ -1,0 +1,13 @@
+# SVG Sprite menu items definition
+entity.svg_sprite.collection:
+  title: 'SVG Sprite list'
+  route_name: entity.svg_sprite.collection
+  description: 'List SVG Sprites'
+  parent: system.admin_structure
+  weight: 100
+
+svg_sprite.admin.structure.settings:
+  title: SVG Sprite settings
+  description: 'Configure SVG Sprites'
+  route_name: svg_sprite.settings
+  parent: system.admin_structure

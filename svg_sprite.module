@@ -1,0 +1,23 @@
+<?php
+/**
+ * @file
+ * SVG Sprite module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function svg_sprite_theme($existing, $type, $theme, $path) {
+  $path = drupal_get_path('module', 'svg_sprite') . '/templates';
+  return [
+    'svg_sprite' => [
+      'template' => $path . '/svg_sprite.html',
+      'variables' => [
+        'sprite_id' => NULL,
+        'width' => NULL,
+        'height' => NULL,
+        'role' => NULL,
+      ],
+    ]
+  ];
+}

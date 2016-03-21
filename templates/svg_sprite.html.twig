@@ -1,0 +1,28 @@
+{#
+/**
+ * @file svg_sprite.html.twig
+ * Default theme implementation to present SVG Sprite data.
+ *
+ * This template is used when viewing SVG Sprites.
+ *
+ *
+ * Available variables:
+ * - sprite_id: The sprite ID.
+ * - width: The sprite width.
+ * - height: The sprite height.
+ * - role: The aria role.
+ *
+ * @see template_preprocess_svg_sprite()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('svg_sprite') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>
+
+<svg role="{{ role }}" style=”height: {{ height }}px; width: {{ width }}px;”>
+  <use xlink:href="{{ svg_file }}#{{ sprite_id }}" />
+</svg>

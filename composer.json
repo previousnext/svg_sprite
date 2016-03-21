@@ -1,0 +1,14 @@
+{
+  "name": "drupal/svg_sprite",
+  "type": "drupal-module",
+  "description": "Allows you to upload an SVG sprite, then display it as a field.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/svg_sprite",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/svg_sprite",
+    "source": "http://cgit.drupalcode.org/svg_sprite"
+  },
+  "require": { }
+}

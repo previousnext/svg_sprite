@@ -1,0 +1,19 @@
+add svg Sprites:
+  title: 'Create new SVG Sprites'
+
+administer svg Sprites:
+  title: 'Administer SVG Sprites'
+  description: 'Allow to access the administration form to configure SVG Sprites.'
+  restrict access: true
+
+delete svg Sprites:
+  title: 'Delete SVG Sprites'
+
+edit svg Sprites:
+  title: 'Edit SVG Sprites'
+
+view published svg Sprites:
+  title: 'View published SVG Sprites'
+
+view unpublished svg Sprites:
+  title: 'View unpublished SVG Sprites'

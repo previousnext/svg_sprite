@@ -1,0 +1,21 @@
+# SVG Sprite routing definition
+svg_sprite.settings_tab:
+  route_name: svg_sprite.settings
+  title: 'Settings'
+  base_route: svg_sprite.settings
+entity.svg_sprite.canonical:
+  route_name: entity.svg_sprite.canonical
+  base_route: entity.svg_sprite.canonical
+  title: 'View'
+
+entity.svg_sprite.edit_form:
+  route_name: entity.svg_sprite.edit_form
+  base_route: entity.svg_sprite.canonical
+  title: Edit
+
+entity.svg_sprite.delete_form:
+  route_name:  entity.svg_sprite.delete_form
+  base_route:  entity.svg_sprite.canonical
+  title: Delete
+  weight: 10
+
